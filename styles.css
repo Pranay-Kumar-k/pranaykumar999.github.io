@@ -10,11 +10,8 @@ a:visited {
 
 .marginBox {
     margin-top: -150px;
-    margin-left: 42%;
+    margin-left: 43%;
     position: absolute;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
 }
 
 .diagonalBox {
@@ -27,7 +24,9 @@ a:visited {
 .circlePer {
     margin-left: 25%;
 }
-
+.card:hover {
+    transform: scale(1.1);
+}
 
 @media only screen and (max-width: 768px) {
     .marginBox {
