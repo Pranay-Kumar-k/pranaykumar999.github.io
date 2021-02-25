@@ -5,7 +5,7 @@ p {
 a,
 a:active,
 a:visited {
-    color: rgb(13, 146, 212);
+    color: #1aff8c;
 }
 
 .marginBox {
@@ -15,12 +15,20 @@ a:visited {
 }
 
 .diagonalBox {
-    background: rgb(77, 187, 241);
+    background: #1aff8c;
     padding: 100px 0;
-    transform: skew(0deg, -4deg) translateY(-90px);
+    transform: skew(0deg, -6deg) translateY(-80px);
     position: relative;
 }
-
+.tech-stack-icons {
+    text-align: center;
+  }
+  
+.tech-stack-icons img {
+width: 80px;
+height: 80px;
+margin-bottom: 5px;
+}
 .circlePer {
     margin-left: 25%;
 }
